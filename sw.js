@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/angelamakeup/app-611e1e9739ee86b20b9f.js","6a3458f8ee24367341ee8f8cf71a5481"],["/angelamakeup/commons-0ac603437920fce265bc.js","a43a3abeb8e33f26a562f205ac294949"],["/angelamakeup/commons-16ee2c2393b0c11f787d.js","7257be0092e12108f391f22e1ad18ecf"],["/angelamakeup/index.html","68c56e61c23fd11f4d191e4d940b58d7"],["/angelamakeup/manifest.json","ec43970aee23c04db1dd7696d71bb9c6"],["/angelamakeup/offline-plugin-app-shell-fallback/index.html","2656de1221f647a97cffbec45bba8457"]];
+var precacheConfig = [["/angelamakeup/app-fbb8772871bf20ccaa32.js","49d37039977afa768a6318d122c0f58d"],["/angelamakeup/commons-63a374d01332d011b36f.js","976193f709ea8853eabfc1aee2bc2aba"],["/angelamakeup/index.html","e65bc4b232004c16fbeb27254e3e26c0"],["/angelamakeup/manifest.json","ec43970aee23c04db1dd7696d71bb9c6"],["/angelamakeup/offline-plugin-app-shell-fallback/index.html","35fd62874b9f5f4e9ada6cf460915b3c"]];
 var cacheName = 'sw-precache-v3-gatsby-plugin-offline-' + (self.registration ? self.registration.scope : '');
 
 
