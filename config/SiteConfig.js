@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
+  pathPrefix: '/angelamakeup', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
   siteTitle: 'Angela Garcia Makeup', // Navigation and Site Title
   siteTitleAlt: 'Angela Makeup - Profesional Makeup Artist', // Alternative Site title for SEO
   siteUrl: 'http://charliera.github.com/angelamakeup', // Domain of your site. No trailing slash!
