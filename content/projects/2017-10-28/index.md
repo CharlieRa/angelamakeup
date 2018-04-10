@@ -1,7 +1,7 @@
 ---
 client: "LekoArts"
 title: "LekoArts - Your theme creator!"
-cover: "./lekoarts.jpg"
+cover: "./makeup1.jpeg"
 date: "2017-10-28"
 service: "Theme"
 ---
