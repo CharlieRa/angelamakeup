@@ -1,7 +1,7 @@
 ---
 client: "CubeRound"
 title: "CubeRound - Make Cubes round!"
-cover: "./makeup2.jpeg"
+cover: "./makeup2.jpg"
 date: "2017-10-26"
 service: "Website"
 ---

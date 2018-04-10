@@ -32,10 +32,10 @@ export default class Navigation extends Component {
             <nav className={styles.navigation}>
               <span>
                 <Link to="/about" activeClassName="active">
-                  About
+                  Acerca de Mí
                 </Link>
                 <Link to="/contact" activeClassName="active">
-                  Contact
+                  Contáctame
                 </Link>
               </span>
             </nav>
@@ -48,15 +48,15 @@ export default class Navigation extends Component {
             </div>
             <div className={styles.socialMedia}>
               <span>
-                <a href="https://www.instagram.com/lekoarts.de" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/angelagarciamakeup" target="_blank" rel="noopener noreferrer">
                   <FaInstagram />
                 </a>
-                <a href="https://www.behance.net/lekoarts" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://www.behance.net/lekoarts" target="_blank" rel="noopener noreferrer">
                   <FaBehance />
-                </a>
-                <a href="https://dribbble.com/LeKoArts" target="_blank" rel="noopener noreferrer">
+                </a> */}
+                {/* <a href="https://dribbble.com/LeKoArts" target="_blank" rel="noopener noreferrer">
                   <FaDribbble />
-                </a>
+                </a> */}
               </span>
             </div>
           </Fade>
@@ -71,21 +71,21 @@ export default class Navigation extends Component {
                 <h1>{config.siteTitle}</h1>
               </Link>
               <Link to="/about" activeClassName="active" onClick={() => this.closeMenu()}>
-                About
+                Acerca de Mí
               </Link>
               <Link to="/contact" activeClassName="active" onClick={() => this.closeMenu()}>
-                Contact
+                Contáctame
               </Link>
               <div className={styles.mobileNavSocialMedia}>
-                <a href="https://www.instagram.com/lekoarts.de" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/angelagarciamakeup" target="_blank" rel="noopener noreferrer">
                   <FaInstagram />
                 </a>
-                <a href="https://www.behance.net/lekoarts" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://www.behance.net/lekoarts" target="_blank" rel="noopener noreferrer">
                   <FaBehance />
                 </a>
                 <a href="https://dribbble.com/LeKoArts" target="_blank" rel="noopener noreferrer">
                   <FaDribbble />
-                </a>
+                </a> */}
               </div>
             </Menu>
           </div>

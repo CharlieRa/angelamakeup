@@ -30,7 +30,7 @@ export default class ProjectListing extends React.PureComponent {
               </div>
               <Link to={project.path} key={project.path} className={styles.link}>
                 <Palette image={project.imageURL}>
-                  {palette => <div className={styles.overlay} style={{ backgroundColor: palette.vibrant }} />}
+                  {palette => <div className={styles.overlay} />}
                 </Palette>
                 <h2 className={styles.client} key={project.client}>
                   {project.client}
