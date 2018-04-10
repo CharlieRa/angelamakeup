@@ -21,8 +21,8 @@ module.exports = {
   // More information here: https://date-fns.org/v1.29.0/docs/format
   dateFormat: 'DD.MM.YYYY',
   // Manifest and Progress color
-  themeColor: '#3498DB',
-  backgroundColor: '#2b2e3c',
+  themeColor: '#212121',
+  backgroundColor: '#212121',
   // Settings for typography.js
   headerFontFamily: 'Roboto',
   bodyFontFamily: 'Roboto',
