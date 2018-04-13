@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/angelamakeup', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
+  pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
   siteTitle: 'Angela Garcia Makeup', // Navigation and Site Title
   siteTitleAlt: 'Angela Makeup - Profesional Makeup Artist', // Alternative Site title for SEO
   siteUrl: 'http://charliera.github.com/angelamakeup', // Domain of your site. No trailing slash!
@@ -14,9 +14,9 @@ module.exports = {
   copyright: 'Copyright © 2018. Todos los derechos reservados.', // Copyright in the footer of the site
   // You can translate these three words into your language if you want.
   // They'll be shown on the project page header
-  client: 'Client',
-  date: 'Date',
-  service: 'Service',
+  client: 'Cliente',
+  date: 'Fecha',
+  service: 'Servicio',
   // Date format used in your project header
   // More information here: https://date-fns.org/v1.29.0/docs/format
   dateFormat: 'DD.MM.YYYY',

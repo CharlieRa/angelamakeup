@@ -62,9 +62,6 @@ export default class Navigation extends Component {
           </Fade>
         </Headroom>
         <div className={styles.mobileNav}>
-          <div className={styles.mobileNavName}>
-            <h3>{config.siteTitle}</h3>
-          </div>
           <div className={styles.menu}>
             <Menu isOpen={this.state.menuOpen} onStateChange={this.handleStateChange} width="100%">
               <Link to="/" onClick={() => this.closeMenu()}>
@@ -88,6 +85,9 @@ export default class Navigation extends Component {
                 </a> */}
               </div>
             </Menu>
+            <div className={styles.mobileNavName}>
+              <h3>{config.siteTitle}</h3>
+            </div>
           </div>
         </div>
       </header>

@@ -14,7 +14,7 @@ const Project = props => {
   const postNode = props.data.markdownRemark;
   const project = postNode.frontmatter;
   const date = format(project.date, config.dateFormat);
-  const imageURL = project.cover.childImageSharp.resize.src;
+  const imageURL = config.pathPrefix + project.cover.childImageSharp.resize.src;
   if (!project.id) {
     project.id = slug;
   }
