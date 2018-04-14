@@ -5,7 +5,6 @@ import Container from '../components/Container/Container';
 import Footer from '../components/Footer/Footer';
 import config from '../../config/SiteConfig';
 import Palette from 'react-palette';
-import about1 from '../../static/logos/about1.jpg'
 import Img from 'gatsby-image'; 
 
 const About = ({ data })  => (
