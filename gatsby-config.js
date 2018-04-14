@@ -19,6 +19,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `img`,
+        path: `${__dirname}/static/logos/`
+      }
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [

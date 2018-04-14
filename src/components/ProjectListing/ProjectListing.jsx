@@ -28,15 +28,16 @@ export default class ProjectListing extends React.PureComponent {
               <div className={styles.image}>
                 <Img sizes={project.cover} />
               </div>
-              <Link to={project.path} key={project.path} className={styles.link}>
+              {/* <Link to={project.path} key={project.path} className={styles.link}> */}
+              <Link to='#' key={project.path} className={styles.link}>
                 <Palette image={project.imageURL}>
                   {palette => <div className={styles.overlay} />}
                 </Palette>
                 <h2 className={styles.client} key={project.client}>
-                  {project.client}
+                  {/* {project.client} */}
                 </h2>
                 <div className={styles.service} key={project.service}>
-                  {project.service}
+                  {/* {project.service} */}
                 </div>
               </Link>
             </div>

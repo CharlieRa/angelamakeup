@@ -1,11 +1,11 @@
 @import '../../../config/variables';
 
 .header {
-	background: $brand-secondary;
+	background: $brand-primary;
 	color: #fff;
 	margin-bottom: 4rem;
 	margin-top: 1rem;
-	padding: 6rem $distance;
+	padding: 1rem $distance;
 	text-align: center;
 	h1 {
 		margin-bottom: 0 !important;
