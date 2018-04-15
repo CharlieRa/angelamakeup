@@ -1,7 +1,19 @@
 # Ange Makeup website build with gatsby starter portfolio: emma
 
 ## Description 
+
 * Website for angelamakeup.cl build with gatsby
+
+## ToDo
+
+
+- Improve performance
+- Add more projects images
+- Add description an images to each projects
+- Add SSL certificate
+- Add a logo or a font for stylish the name
+- Add more RRSS
+- Complete mor about section
 
 ## Features
 
