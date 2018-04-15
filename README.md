@@ -1,23 +1,7 @@
-![](https://i.imgur.com/M0nwIVi.png)
+# Ange Makeup website build with gatsby starter portfolio: emma
 
-# Gatsby Starter Portfolio: Emma
-
-A portfolio starter for [Gatsby](https://www.gatsbyjs.org/). The target audience are designers and photographers.
-
-[Demo Website](https://portfolio-emma.netlify.com/)
-
-- Full-width grid-layout
-- Large images
-- Light theme
-
-## Why?
-
-If you want to quickly bootstrap a design/photography portfolio or use it as a foundation for your personal site the *gatsby-starter-portfolio* are a perfect fit for you! The project's goal is to offer minimalistic and fast websites. 
-
-I hope you like my starters and create something awesome! To see some of my work you can visit my [website](https://www.lekoarts.de) or support me on [Patreon](https://www.patreon.com/lekoarts) to get some neat rewards (4K images, project files, tutorial insights).
-
-Also check out the other *gatsby-starter-portfolio*:
-- [gatsby-starter-portfolio-emilia](https://github.com/LeKoArts/gatsby-starter-portfolio-emilia)
+## Description 
+* Website for angelamakeup.cl build with gatsby
 
 ## Features
 
@@ -41,16 +25,25 @@ Also check out the other *gatsby-starter-portfolio*:
     - WebP support
 
 ## Getting Started
+* Install dependecies
+```
+npm install
+```
 
-Check your development environment! You'll need [Node.js](https://nodejs.org/en/), the [Gatsby CLI](https://www.gatsbyjs.org/docs/) and [node-gyp](https://github.com/nodejs/node-gyp#installation) installed. The official Gatsby website also lists two articles regarding this topic:
-- [Gatsby on Windows](https://www.gatsbyjs.org/docs/gatsby-on-windows/)
-- [Check your development environment](https://www.gatsbyjs.org/tutorial/part-one/#check-your-development-environment)
+* For run locally
+```
+npm run dev
+```
 
-To copy and install this starter run this command (with "project-name" being the name of your folder you wish to install it in):
+* For production build in public folder 
+```
+npm run build
+```
+
+* For producion build for publis to github pages
 
 ```
-gatsby new project-name https://github.com/LeKoArts/gatsby-starter-portfolio-emma
-npm run dev
+npm run deploy
 ```
 
 ### Adding a new project
@@ -65,13 +58,6 @@ If you're still unsure have a look at the already existing examples.
 
 You can add other features by having a look at the offical [plugins page](https://www.gatsbyjs.org/docs/plugins/)
 
-### Building your site
-
-```
-npm run build
-```
-Copy the content of the ``public`` folder to your webhost or use a website like Netlify which automates that for you.
-
 ## Configuration
 
 You can configure your setup in ``config/SiteConfig``:
@@ -79,40 +65,35 @@ You can configure your setup in ``config/SiteConfig``:
 ```JS
 module.exports = {
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
-  
-  siteTitle: 'Emma', // Navigation and Site Title
-  siteTitleAlt: 'Emma - Gatsby Starter Portfolio', // Alternative Site title for SEO
-  siteUrl: 'https://embalmer-glues-43220.netlify.com', // Domain of your site. No trailing slash!
-  siteLanguage: 'en', // Language Tag on <html> element
-  siteLogo: '/logos/logo-1024.png', // Used for SEO and manifest
-  siteDescription: 'Minimalistic bright portfolio with full-width grid and large images',
-  
+  siteTitle: 'Angela Makeup', // Navigation and Site Title
+  siteTitleAlt: 'Angela Makeup - Profesional Makeup Artist', // Alternative Site title for SEO
+  siteUrl: 'http://angelamakeup.cl', // Domain of your site. No trailing slash!
+  siteLanguage: 'es', // Language Tag on <html> element
+  siteLogo: '/logos/logo-1024.jpg', // Used for SEO and manifest
+  siteDescription: 'Portafolio de trbajos realizados por la profesional Angela Garcia',
   siteFBAppID: '123456789', // Facebook App ID
   userTwitter: 'emma', // Twitter Username
+  // og: Meta Tags
   ogSiteName: 'emma', // Facebook Site Name
   googleAnalyticsID: 'UA-12345689-1',
-  copyright: 'Copyright © 2017. All rights reserved. Pictures by Unsplash.', // Copyright in the footer of the site
-  
-  // You can translate these three words into your language if you want. They'll be shown on the project page header
-  client: 'Client',
-  date: 'Date',
-  service: 'Service',
-
+  copyright: 'Copyright © 2018. Todos los derechos reservados.', // Copyright in the footer of the site
+  // You can translate these three words into your language if you want.
+  // They'll be shown on the project page header
+  client: 'Cliente',
+  date: 'Fecha',
+  service: 'Servicio',
   // Date format used in your project header
   // More information here: https://date-fns.org/v1.29.0/docs/format
   dateFormat: 'DD.MM.YYYY',
-  
   // Manifest and Progress color
-  themeColor: '#3498DB',
-  backgroundColor: '#2b2e3c',
-  
+  themeColor: '#212121',
+  backgroundColor: '#212121',
   // Settings for typography.js
-  headerFontFamily: 'Merriweather',
+  headerFontFamily: 'Roboto',
   bodyFontFamily: 'Roboto',
-  baseFontSize: '16px'
-}
+  baseFontSize: '16px',
+};
 ```
-
 You can also configure the styling of the site by editing the SCSS variables in ``config/_variables.scss``:
 
 ```SCSS
