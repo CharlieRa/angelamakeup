@@ -12,7 +12,7 @@ const Contact = () => (
     <Container text>
       <h1>Contáctame</h1>
       <p>Puedes contactarme en</p>
-      <h2>+569985049225 &nbsp;|&nbsp; ange.drewtruck@gmail.com</h2>
+      <h2>+56985049225 &nbsp;|&nbsp; ange.drewtruck@gmail.com</h2>
     </Container>
     <Footer />
   </div>
